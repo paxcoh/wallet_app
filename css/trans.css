@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table th {
+    background-color: #f4f4f4;
+}
+
+header nav ul {
+    display: flex;
+    background-color: #4caf50;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Add Transaction Button */
+#add-transaction-btn {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-transaction-btn:hover {
+    background-color: #45a049;
+}
+
+/* Transaction Form */
+#transaction-form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#transaction-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#transaction-form input,
+#transaction-form select,
+#transaction-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#transaction-form button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#transaction-form button:hover {
+    background-color: #45a049;
+}
+
+/* Budget Alert */
+#budget-alert {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+/* Transaction Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 12px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
